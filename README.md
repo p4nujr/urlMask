@@ -2,7 +2,7 @@
 ## urlMask by p4nujr
 Like most phishing scams, URL phishing relies on tricking the user into taking action — in this case, accessing a fake website and parting with passwords and sensitive information. The site often asks the user to reset a password, reenter personal and credit information to validate an account, or download a “software update,” which is really malware in disguise. This is exactly what this tool does, hide the destination url within another reliable one such as (google, youtube...)
 
-## Installation (Tested on Kali Linux 2022.2):
+## Installation: (Tested on Kali Linux 2022.2)
 ```
 git clone https://github.com/p4nujr/urlMask.git
 sudo pip3 install pyshorteners
