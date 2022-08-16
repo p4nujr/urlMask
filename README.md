@@ -11,6 +11,6 @@ python3 urlMask.py
 ```
 ## Usage: (Tested on Kali Linux 2022.2)
 Example: 
-
+https://www.youtube.com/watch?v=e9Qa_HHtK1U
 ## Legal Disclaimer:
 Usage of urlMask for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
