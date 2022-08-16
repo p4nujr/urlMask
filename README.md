@@ -9,7 +9,7 @@ sudo pip3 install pyshorteners
 cd urlMask 
 python3 urlMask.py
 ```
-## Usage: (Tested on Kali Linux 2022.2)
+## Implementation: (Tested on Kali Linux 2022.2)
 Example: 
 https://www.youtube.com/watch?v=e9Qa_HHtK1U
 ## Legal Disclaimer:
