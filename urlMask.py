@@ -9,11 +9,11 @@ os.system('clear')
 
 
 def Main():
-    print("-------------------------------------------------------")
+    print("------------------------------------------------------------")
     print("                [urlMask]                   ")
     print("   Hide your URL to social engineer targets ;)   ")
-    print("                                             by p4nujr   ")
-    print("-------------------------------------------------------")
+    print("                                                 by p4nujr   ")
+    print("------------------------------------------------------------")
     print("\nPlease choose in which of these websites you want to hide your link: ")
     print("\n1)  Google")
     print("2)  Youtube")
