@@ -8,7 +8,7 @@ os.system('clear')
 
 
 
-def Main():
+def main():
     print("------------------------------------------------------------")
     print("                [urlMask]                   ")
     print("   Hide your URL to social engineer targets ;)   ")
@@ -23,10 +23,10 @@ def Main():
     print("6)  Tik Tok")
     print("7)  Personalized")
     print("\n8)  Exit")
-    Selector()
+    selector()
 
 
-def Selector():
+def selector():
     option = int(input("\nSelect a option: "))
     if option == 1:
         google()
@@ -57,7 +57,7 @@ def Selector():
         sleep(1)
         os.system('clear')
 
-        Main()
+        main()
 
 
 def google():
@@ -76,7 +76,7 @@ def google():
 
     print(f"\nYour link is: https://www.google.com-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
 def youtube():
@@ -95,7 +95,7 @@ def youtube():
 
     print(f"\nYour link is: https://www.youtube.com-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
 def spotify():
@@ -114,7 +114,7 @@ def spotify():
 
     print(f"\nYour link is: https://www.spotify.com-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
 def instagram():
@@ -133,7 +133,7 @@ def instagram():
 
     print(f"\nYour link is: https://www.instagram.com-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
 def facebook():
@@ -152,7 +152,7 @@ def facebook():
 
     print(f"\nYour link is: https://www.facebook.com-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
 def tiktok():
@@ -171,7 +171,7 @@ def tiktok():
 
     print(f"\nYour link is: https://www.tiktok.com-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
 def personalized():
@@ -191,22 +191,24 @@ def personalized():
 
     print(f"\nYour link is: https://www.{domain}-{postLink}@{noHttps}")
 
-    Other()
+    other()
 
 
-def Other():
+def other():
     print("\033[93m\nDo you want to create another link?")
     print("Yes 1) \nNo  2)")
     option = int(input("\nSelect a option: "))
     if option == 1:
         os.system('clear')
 
-        Main()
+        main()
     else:
         os.system('clear')
 
         exit()
 
+
 # SYSCALL
 
-Main()
+if __name__ == '__main__':
+    main()
