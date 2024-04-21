@@ -178,7 +178,7 @@ def personalized():
     os.system('clear')
 
     print("You have selected Personalized.")
-    domain = str(input("Example.com/es... input domain: "))
+    domain = str(input("example.com/es... input domain: "))
     originalLink = str(input("\nURL to mask: "))
 
     print("\nPlease type between hyphens, words or phrases related to the masked url to trick the victim, e.g: something-related-with-your-personalized-url")
